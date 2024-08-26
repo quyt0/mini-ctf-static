@@ -1,0 +1,24 @@
+.home-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.overlay {
+    background-image: url('/assets/images/background.gif');
+    position: fixed;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.home-first-main-img {
+    width: 30%;
+}
+
